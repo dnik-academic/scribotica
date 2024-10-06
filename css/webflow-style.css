@@ -2855,6 +2855,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  font-family: Montserrat, sans-serif;
   display: flex;
 }
 
@@ -2890,6 +2891,7 @@ p {
   justify-content: flex-end;
   align-items: flex-start;
   margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
   display: block;
 }
 
@@ -2921,7 +2923,8 @@ p {
 }
 
 .fotter-logo-image {
-  width: 169px;
+  width: 100%;
+  line-height: 20px;
 }
 
 .footer-menu-title {
@@ -2929,9 +2932,14 @@ p {
 }
 
 .footer-link {
-  color: #6f6f6f;
+  color: #000;
   font-size: 16px;
+  font-weight: 300;
   text-decoration: none;
+}
+
+.footer-link.margin-8 {
+  font-weight: 300;
 }
 
 .footer-link.margin-right {
@@ -2950,9 +2958,11 @@ p {
 }
 
 .fotter-bottom-wrapper {
+  color: #030000;
   border-top: 2px solid #e1e1e1;
   justify-content: space-between;
   padding-top: 8px;
+  font-family: Montserrat, sans-serif;
   display: flex;
 }
 
