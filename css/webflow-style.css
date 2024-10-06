@@ -3444,6 +3444,7 @@ p {
   }
 
   .walsh-nav-link-white {
+    color: #fff;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3465,6 +3466,16 @@ p {
 
   .walsh-link-block-orange-2 {
     padding-left: 50px;
+  }
+
+  .nav-link {
+    color: #fff;
+    background-color: #ffecec00;
+    padding: 15px 0;
+  }
+
+  .nav-link:hover {
+    background-color: #ffecec00;
   }
 
   .icon {
@@ -3804,15 +3815,31 @@ p {
   }
 
   .walsh-nav-menu-green {
-    background-color: #000;
+    color: #000;
+    background-color: #d3d3d3;
+    padding-top: 15px;
   }
 
   .walsh-menu-button {
     width: auto;
   }
 
+  .walsh-nav-link-white {
+    color: #000;
+  }
+
   .walsh-brand-block {
     padding-left: 0;
+  }
+
+  .nav-link {
+    color: #000;
+    background-color: #ffecec00;
+    padding: 15px 0;
+  }
+
+  .nav-link:hover {
+    background-color: #ffecec00;
   }
 
   .icon {
@@ -3914,7 +3941,8 @@ p {
   }
 
   .walsh-nav-menu-green {
-    background-color: #000;
+    background-color: #fff;
+    font-family: Montserrat, sans-serif;
   }
 
   .walsh-menu-button {
@@ -3922,8 +3950,13 @@ p {
   }
 
   .walsh-nav-link-white {
+    color: #000;
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+
+  .walsh-nav-link-white:hover {
+    background-color: #ffecec;
   }
 
   .walsh-label-button-2 {
@@ -3940,6 +3973,16 @@ p {
     align-self: center;
     padding-left: 30px;
     padding-right: 25px;
+  }
+
+  .nav-link {
+    color: #000;
+    background-color: #ffecec00;
+    padding: 15px 0;
+  }
+
+  .nav-link:hover {
+    background-color: #ffecec;
   }
 
   .icon {
