@@ -2466,7 +2466,9 @@ p {
 }
 
 .tabs-menu {
-  justify-content: space-between;
+  grid-column-gap: 58px;
+  grid-row-gap: 58px;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 32px;
   display: flex;
@@ -2534,7 +2536,7 @@ p {
 
 .tab-link-02 {
   opacity: .6;
-  padding: 20px 32px;
+  padding: 20px 32px 22px;
   font-family: Archivo, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -2557,11 +2559,16 @@ p {
 
 .tab-link-02._2.w--current {
   background-color: #ffecec;
+  padding-bottom: 22px;
 }
 
 .tab-link-02._3 {
   font-family: Montserrat, sans-serif;
   font-size: 18px;
+}
+
+.tab-link-02._3.w--current {
+  padding-bottom: 22px;
 }
 
 .tab-pane-02 {
@@ -2584,6 +2591,7 @@ p {
 }
 
 .tab-link-02._4 {
+  padding-bottom: 22px;
   font-size: 18px;
 }
 
@@ -2673,6 +2681,7 @@ p {
   border-radius: 12px;
   justify-content: space-between;
   max-width: 880px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 0 0 32px;
@@ -2805,6 +2814,7 @@ p {
 
 .blog-image.margin-32 {
   object-fit: cover;
+  border-radius: 20px;
   height: auto;
 }
 
@@ -2830,6 +2840,7 @@ p {
 
 .paragraph-2 {
   font-family: Montserrat, sans-serif;
+  font-weight: 300;
 }
 
 .newsletter-wrapper {
@@ -2906,8 +2917,9 @@ p {
   border-radius: 100%;
   justify-content: center;
   align-items: center;
-  width: 176px;
-  height: 176px;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
   font-size: 20px;
   text-decoration: none;
   display: flex;
@@ -2924,6 +2936,7 @@ p {
 }
 
 .footer-grid.margin-40 {
+  grid-template-columns: 2.5fr 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   font-family: Montserrat, sans-serif;
 }
 
@@ -3008,6 +3021,7 @@ p {
 }
 
 .h2-heading.light.margin-24 {
+  color: #912526;
   font-family: Montserrat, sans-serif;
 }
 
@@ -3033,6 +3047,8 @@ p {
 
 .paragraph-5 {
   font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .text-block-2, .text-block-3 {
@@ -3055,7 +3071,12 @@ p {
   color: var(--first);
 }
 
-.paragraph-7, .paragraph-8, .paragraph-9, .text-block-5 {
+.paragraph-7, .paragraph-8 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+.paragraph-9, .text-block-5 {
   font-family: Montserrat, sans-serif;
 }
 
@@ -3102,6 +3123,11 @@ p {
 
 .walsh-nav-link-white:hover {
   background-color: #ffecec;
+}
+
+.walsh-nav-link-white:active {
+  color: #000;
+  background-color: #f8f8f8;
 }
 
 .walsh-nav-link-white.w--current {
@@ -3182,12 +3208,15 @@ p {
 }
 
 .nav-link {
+  color: #fff;
+  background-color: #922526;
+  border-radius: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
 }
 
 .nav-link:hover {
-  background-color: #ffecec;
+  background-color: #eda240;
 }
 
 .text-span-3 {
@@ -3196,6 +3225,31 @@ p {
 
 .text-block-7 {
   font-weight: 400;
+}
+
+.text-span-4 {
+  color: #922526;
+}
+
+.text-span-5 {
+  color: #000;
+}
+
+.heading {
+  color: #922526;
+  font-family: Montserrat, sans-serif;
+}
+
+.text-block-8 {
+  text-align: left;
+}
+
+.collection-list-wrapper {
+  margin-top: 60px;
+}
+
+.text-span-6 {
+  color: #922526;
 }
 
 @media screen and (max-width: 991px) {
@@ -4001,11 +4055,6 @@ p {
 }
 
 #w-node-_91fcbcad-74f5-2fae-6783-3dbaabef4a97-cdabdf8c {
-  grid-area: 1 / 5 / 2 / 7;
-  justify-self: start;
-}
-
-#w-node-ab0d0ae1-ba84-43dd-0685-daeefab83d19-cdabdf8c {
   grid-area: 1 / 7 / 2 / 9;
   justify-self: start;
 }
@@ -4030,11 +4079,6 @@ p {
     justify-self: center;
   }
 
-  #w-node-ab0d0ae1-ba84-43dd-0685-daeefab83d19-cdabdf8c {
-    grid-area: 2 / 2 / 3 / 3;
-    justify-self: center;
-  }
-
   #w-node-_0f356880-bb36-da75-14ab-ebb4d28ec9a8-cdabdf8c {
     grid-area: 3 / 1 / 4 / 2;
     justify-self: center;
@@ -4047,19 +4091,7 @@ p {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_4b32d69c-e20a-758f-96be-e5ea3ddba7b2-cdabdf8c {
-    justify-self: auto;
-  }
-
-  #w-node-_91fcbcad-74f5-2fae-6783-3dbaabef4a97-cdabdf8c {
-    justify-self: center;
-  }
-
-  #w-node-ab0d0ae1-ba84-43dd-0685-daeefab83d19-cdabdf8c {
-    place-self: start center;
-  }
-
-  #w-node-_0f356880-bb36-da75-14ab-ebb4d28ec9a8-cdabdf8c, #w-node-_53ea0599-b7a0-2dd7-1702-72d2faf307f9-cdabdf8c {
+  #w-node-_91fcbcad-74f5-2fae-6783-3dbaabef4a97-cdabdf8c, #w-node-_0f356880-bb36-da75-14ab-ebb4d28ec9a8-cdabdf8c, #w-node-_53ea0599-b7a0-2dd7-1702-72d2faf307f9-cdabdf8c {
     justify-self: center;
   }
 }
