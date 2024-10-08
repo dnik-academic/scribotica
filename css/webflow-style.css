@@ -2437,9 +2437,12 @@ p {
 
 .section-image-block {
   text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
   width: 40%;
-  height: 640px;
-  margin-left: 96px;
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
   position: relative;
 }
 
@@ -3019,6 +3022,7 @@ p {
 
 .h2-heading.small.margin-40 {
   color: #000;
+  margin-bottom: 10px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -3709,6 +3713,18 @@ p {
 
 .text-block-9, .text-block-10 {
   color: #922526;
+}
+
+.image-2 {
+  border-radius: 20px;
+}
+
+.div-block-3 {
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
