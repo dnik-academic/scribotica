@@ -2562,6 +2562,7 @@ p {
 .tab-link-02.w--current {
   opacity: 1;
   background-color: #ffecec;
+  padding-bottom: 25px;
   font-size: 18px;
 }
 
@@ -2576,16 +2577,17 @@ p {
 
 .tab-link-02._2.w--current {
   background-color: #ffecec;
-  padding-bottom: 22px;
+  padding-bottom: 25px;
 }
 
 .tab-link-02._3 {
+  padding-bottom: 25px;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
 }
 
 .tab-link-02._3.w--current {
-  padding-bottom: 22px;
+  padding-bottom: 25px;
 }
 
 .tab-pane-02 {
@@ -2608,7 +2610,7 @@ p {
 }
 
 .tab-link-02._4 {
-  padding-bottom: 22px;
+  padding-bottom: 25px;
   font-size: 18px;
 }
 
@@ -2995,7 +2997,7 @@ p {
 
 .fotter-bottom-wrapper {
   color: #030000;
-  border-top: 2px solid #e1e1e1;
+  border-top: 2px solid #922525;
   justify-content: space-between;
   padding-top: 8px;
   font-family: Montserrat, sans-serif;
@@ -3611,7 +3613,12 @@ p {
 }
 
 .div-block-2 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
   flex-flow: row;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -3856,7 +3863,11 @@ p {
   background-color: var(--combine-library--grey-800);
 }
 
-.text-span-11, .text-span-12 {
+.text-span-11 {
+  color: #000;
+}
+
+.text-span-12 {
   color: #922526;
 }
 
@@ -3970,7 +3981,7 @@ p {
 }
 
 .combine-padding-section-medium-5 {
-  padding-top: 4rem;
+  padding-top: 40px;
   padding-bottom: 1.3rem;
 }
 
@@ -4066,6 +4077,10 @@ p {
 
 .combine-section_gallery1 {
   background-color: var(--combine-library--white);
+}
+
+.text-span-13 {
+  color: #922526;
 }
 
 @media screen and (max-width: 991px) {
