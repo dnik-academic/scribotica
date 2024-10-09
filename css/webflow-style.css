@@ -2072,6 +2072,25 @@ textarea.w-input, textarea.w-select {
   --greyy: #b4acac;
 }
 
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
 body {
   color: #1e1e1e;
   font-family: DM Sans, sans-serif;
@@ -3054,6 +3073,7 @@ p {
 
 .paragraph-3 {
   color: #fff;
+  font-family: Montserrat, sans-serif;
 }
 
 .text-block {
@@ -3273,6 +3293,7 @@ p {
 
 .text-block-8 {
   text-align: left;
+  font-weight: 400;
 }
 
 .collection-list-wrapper {
@@ -4092,6 +4113,36 @@ p {
 .link-2 {
   color: #000;
   text-decoration: none;
+}
+
+.text-block-11, .text-block-12 {
+  font-weight: 400;
+}
+
+.formester-div-style {
+  width: auto;
+  height: 600px;
+  margin: 20px;
+}
+
+.formester-iframe-style {
+  border-style: none;
+}
+
+.div-block-5 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-2 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
