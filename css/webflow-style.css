@@ -3152,6 +3152,7 @@ p {
 }
 
 .walsh-container-nav {
+  background-color: #f6f6f6;
   max-width: 1480px;
   padding-left: 20px;
   padding-right: 20px;
@@ -3305,7 +3306,7 @@ p {
 }
 
 .footer-dark {
-  background-color: #ffecec;
+  background-color: #f6f6f6;
   border-bottom: 1px solid #e4ebf3;
   padding: 10px 30px 15px;
   position: relative;
@@ -4014,7 +4015,7 @@ p {
 }
 
 .combine-padding-global-7 {
-  background-color: #feebeb;
+  background-color: #f6f6f6;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
