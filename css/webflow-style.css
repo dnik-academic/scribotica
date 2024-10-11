@@ -2321,7 +2321,7 @@ p {
 }
 
 .section-top-wrapper {
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   display: flex;
 }
@@ -3081,6 +3081,14 @@ p {
 .h2-heading.light.margin-24 {
   color: #912526;
   font-family: Montserrat, sans-serif;
+}
+
+.h2-heading.margin-12-mb {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .h1-heading.margin-16 {
@@ -5043,6 +5051,10 @@ p {
   overflow: hidden;
 }
 
+.text-span-14, .text-span-15 {
+  color: #922526;
+}
+
 @media screen and (min-width: 1440px) {
   .brix---form-grid-2-columns {
     grid-column-gap: 32px;
@@ -6727,6 +6739,6 @@ p {
   }
 }
 
-#w-node-_7afc1798-6376-3f5a-039b-77611b1bc2fc-cdabdf8c, #w-node-b410f15a-b630-a924-2426-e7a4dcbe3e6c-cdabdf8c, #w-node-_5f3b9a17-866b-3c48-805e-8f0eb9667369-cdabdf8c {
+#w-node-_7afc1798-6376-3f5a-039b-77611b1bc2fc-cdabdf8c, #w-node-b410f15a-b630-a924-2426-e7a4dcbe3e6c-cdabdf8c, #w-node-_5f3b9a17-866b-3c48-805e-8f0eb9667369-cdabdf8c, #w-node-_776be58f-215b-192c-fac8-6040a8c4e323-cdabdf8c, #w-node-_776be58f-215b-192c-fac8-6040a8c4e328-cdabdf8c, #w-node-_776be58f-215b-192c-fac8-6040a8c4e32d-cdabdf8c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
