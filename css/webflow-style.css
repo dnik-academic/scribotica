@@ -4971,6 +4971,10 @@ p {
 
 .brix---color-neutral-807 {
   color: var(--elements-webflow-library--neutral--800);
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .brix---text-center {
@@ -5054,6 +5058,27 @@ p {
   color: var(--first);
 }
 
+.button-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: var(--black-2);
+  background-color: #922526;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+}
+
+.button-2:hover {
+  color: var(--black-2);
+  background-color: #eda23f;
+}
+
 @media screen and (min-width: 1440px) {
   .brix---form-grid-2-columns {
     grid-column-gap: 32px;
@@ -5078,6 +5103,17 @@ p {
   .brix---grid-contact-v1 {
     grid-column-gap: 80px;
     grid-template-columns: 1fr 1.2fr;
+  }
+
+  .brix---card-form-v2 {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .brix---section-position-relative-3 {
+    background-color: #fff;
   }
 }
 
