@@ -2100,15 +2100,6 @@ textarea.w-input, textarea.w-select {
   --studioform-library--sf-corner--large: .625rem;
 }
 
-.w-layout-grid {
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
 body {
   color: #1e1e1e;
   font-family: DM Sans, sans-serif;
@@ -2673,6 +2664,10 @@ p {
   background-color: #c7760b;
 }
 
+.button.w--current {
+  color: var(--black-2);
+}
+
 .button.strech {
   width: 100%;
   font-family: Montserrat, sans-serif;
@@ -3217,7 +3212,7 @@ p {
 }
 
 .walsh-main-nav {
-  background-color: #0000;
+  background-color: #f6f6f6;
 }
 
 .walsh-flex-nav-buttons {
@@ -5035,7 +5030,7 @@ p {
 }
 
 .brix---mg-bottom-64px {
-  margin-bottom: 64px;
+  margin-bottom: 20px;
 }
 
 .brix---inner-container-752px-center {
@@ -5045,7 +5040,7 @@ p {
 }
 
 .brix---section-position-relative-3 {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 60px;
   position: relative;
   overflow: hidden;
@@ -5053,6 +5048,10 @@ p {
 
 .text-span-14, .text-span-15 {
   color: #922526;
+}
+
+.link-3 {
+  color: var(--first);
 }
 
 @media screen and (min-width: 1440px) {
