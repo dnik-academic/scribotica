@@ -2650,8 +2650,8 @@ p {
   background-color: var(--first);
   border-radius: 100px;
   padding: 12px 20px;
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-family: Sulphur Point, sans-serif;
+  font-size: 20px;
   font-weight: 300;
   transition: all .2s;
 }
@@ -3173,7 +3173,7 @@ p {
 }
 
 .walsh-container-nav {
-  background-color: #f6f6f6;
+  background-color: #fff;
   max-width: 1480px;
   padding-left: 20px;
   padding-right: 20px;
@@ -3188,8 +3188,8 @@ p {
   border-radius: 8px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-family: Sulphur Point, sans-serif;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -3212,7 +3212,7 @@ p {
 }
 
 .walsh-main-nav {
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 .walsh-flex-nav-buttons {
@@ -3283,8 +3283,8 @@ p {
   color: #fff;
   background-color: #922526;
   border-radius: 20px;
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-family: Sulphur Point, sans-serif;
+  font-size: 20px;
 }
 
 .nav-link:hover {
