@@ -2498,7 +2498,10 @@ p {
 }
 
 .image {
+  opacity: 1;
+  -webkit-text-fill-color: inherit;
   background-color: #fff;
+  background-clip: border-box;
   border-radius: 20px;
 }
 
@@ -2733,6 +2736,7 @@ p {
 
 .tag {
   margin-right: 15px;
+  padding-left: 20px;
 }
 
 .margin-64 {
@@ -3097,6 +3101,7 @@ p {
   width: 100%;
   min-width: 100%;
   max-width: 100%;
+  padding-bottom: 5px;
   display: block;
 }
 
