@@ -2337,10 +2337,10 @@ p {
 .tag {
   color: #fff;
   text-transform: uppercase;
-  background-image: url("../images/asset-209.png"), url("../images/rectangle-2019.svg");
-  background-position: 50%, 100%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
+  background-image: url("../images/rectangle-2019.svg");
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: contain;
   margin-right: 45px;
   padding: 0 20px 0 12px;
   font-size: 16px;
@@ -2357,6 +2357,7 @@ p {
   color: #000;
   text-align: left;
   background-image: url("../images/asset-208.png");
+  background-size: cover;
   margin-right: 0;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -3074,6 +3075,7 @@ p {
   color: #000;
   margin-bottom: 10px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .h2-heading.blog {
@@ -6333,6 +6335,41 @@ p {
   width: 100%;
   margin-bottom: 10px;
   font-size: 18px;
+  font-weight: 600;
+}
+
+.owabi {
+  color: #fff;
+  background-image: url("../images/asset-209.png");
+  background-position: 50%;
+  background-size: auto;
+  margin-right: 45px;
+  padding-left: 12px;
+  padding-right: 20px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.tag1 {
+  color: #fcf8f8;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: #922526;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.tag2 {
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: #ffecec;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 
